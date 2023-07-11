@@ -1,0 +1,48 @@
+
+/* DEBUG */
+
+.box,
+[class*='col'] {
+    min-height: 80px;
+    min-width: 100px;
+    line-height: 80px;
+    border: 2px dashed red;
+}
+
+.bordered {
+    border: 2px dashed red;
+}
+
+.container,
+.bordered-2 {
+    border: 2px dashed blue;
+}
+
+/* HEADER */
+
+#header {
+    background-color: blue;
+}
+
+
+/* JUMBOTRON */
+
+#jumbotron {
+    background-color: green;
+}
+
+/* MAIN */
+#about {
+    background-color: green;
+}
+
+
+/* FOOTER */
+
+#top-footer {
+    background-color: aqua;
+}
+
+#bottom-footer {
+    background-color: black;
+}
