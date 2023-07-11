@@ -9,6 +9,10 @@
     border: 2px dashed red;
 }
 
+img {
+    width: 100%;
+}
+
 .bordered {
     border: 2px dashed red;
 }
@@ -21,28 +25,39 @@
 /* HEADER */
 
 #header {
-    background-color: blue;
+    background-color: #6395ad;
+    color: white;
 }
+
 
 
 /* JUMBOTRON */
 
 #jumbotron {
-    background-color: green;
+    background-color: #1abc9c;
+    color: white;
+}
+
+#jumbotron img {
+    height: 250px;
 }
 
 /* MAIN */
 #about {
-    background-color: green;
+    background-color: #1abc9c;
+    color: white;
 }
 
+#about p {
+    line-height: 40px;
+}
 
 /* FOOTER */
 
 #top-footer {
-    background-color: aqua;
+    background-color: #6395ad;
 }
 
 #bottom-footer {
-    background-color: black;
+    background-color: #0e2732;
 }
