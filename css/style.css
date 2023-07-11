@@ -52,6 +52,21 @@ img {
     line-height: 40px;
 }
 
+#about button {
+    background-color: #1abc9c;
+    color: white;
+    line-height: initial;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+
+.send {
+    line-height: initial;
+    padding: 10px 15px;
+    background-color: green;
+    border-radius: 10px;
+}
+
 /* FOOTER */
 
 #top-footer {
@@ -60,4 +75,14 @@ img {
 
 #bottom-footer {
     background-color: #0e2732;
+}
+
+.fa-brands {
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+#footer p {
+    line-height: 40px;
 }
