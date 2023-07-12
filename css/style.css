@@ -10,7 +10,7 @@
 } */
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 /* .bordered {
@@ -24,7 +24,7 @@ img {
 
 /* HEADER */
 
-#header {
+/* #header {
     background-color: #6395ad;
     color: white;
     min-height: 100px;
@@ -34,8 +34,11 @@ img {
     height: 100px;
     align-items: center;
     font-size: 25px;
-}
+} */
 
+.navbar {
+    min-height: 100px;
+}
 
 
 /* JUMBOTRON */
